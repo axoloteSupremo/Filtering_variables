@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+   int n,k;
+   cout << "Enter n:" << endl;
+   cin >> n;
+   cout << "Enter k" << endl;
+   cin >> k;
+   for (int i = 1; i <= n; i++){
+       if (i % k == 0){
+           cout << i << " ";
+           
+       } else if(i % k != 0){
+           cout << "X" << " ";
+           
+       }
+   }
+
+    return 0;
+}
